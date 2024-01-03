@@ -1,0 +1,136 @@
+/*------------------------------------LOGIN FORM----------------------------------*/
+
+/* navbar styling*/
+#loginNavbar .logo{
+    font-size:40px;
+    margin:0;
+    padding:0;
+    line-height:1px;
+    font-weight:900 bold;
+    letter-spacing:0.5px;
+    
+    font-family:"poppin",sans-serif;
+}
+#loginNavbar .logo a{
+    color:#ee5610;
+    text-decoration: none;
+    
+}
+
+#loginNavbar .logo a:hover{
+    color: rgb(238, 118, 5);
+}
+
+
+#loginNavbar {
+    width: 100%;
+    background-color:#fff;
+    overflow: auto;
+  }
+  
+  /* Navbar links */
+  #loginNavbar i {
+    float: left;
+    text-align: center;
+    padding: 12px;
+    color: #05074b;
+    text-decoration: none;
+    font-size: 30px;
+  }
+  
+  /* Navbar links on mouse-over */
+  #loginNavbar i:hover {
+    color: #ee5610;
+  }
+  
+  /* Add responsiveness - will automatically display the navbar vertically instead of horizontally on screens less than 500 pixels */
+  @media screen and (max-width: 500px) {
+    #loginNavbar i {
+      float: none;
+      display: block;
+    }
+  }
+
+  /* login form styling */
+
+  #loginform{
+      width:100px;
+      border:2px solid #ccc;
+      padding:20px;
+      background:rgba(201, 192, 187,0.5);
+      border-radius: 15px;
+      
+  }
+
+.forgotPass:hover{
+    color: #ee5610;
+}
+
+#login{
+    background-color:#05074b;
+    border-radius: 50px;
+}
+
+#login:hover{
+    background-color: #ee5610;
+}
+
+
+.register{
+    margin-left:25px;
+    background:#05074b;
+    color:#fff;
+    border-radius:80%;
+    padding:8px 25px;
+    white-space:nowrap;
+    transition:0.5s;
+    font-size:12px;
+    display:inline-block;
+    text-decoration: none;
+}
+
+.register:hover {
+    background:#ee5610;
+    color:#fff;
+}
+
+/*------------- registration form styling------------*/
+#registerForm{
+    width:100px;
+    border:2px solid #ccc;
+    padding:20px;
+    background:rgba(201, 192, 187,0.5);
+    border-radius: 15px;
+    
+}
+
+
+#submit{
+  background-color:#05074b;
+  color:#fff;
+  border-radius: 50px;
+  width:100%;
+}
+
+#submit:hover{
+  background-color: #ee5610;
+}
+
+
+.loginBack{
+    margin-left:25px;
+    background:#05074b;
+    color:#fff;
+    border-radius:80%;
+    padding:8px 25px;
+    white-space:nowrap;
+    transition:0.5s;
+    font-size:12px;
+    display:inline-block;
+    text-decoration: none;
+}
+
+.loginBack:hover {
+    background:#ee5610;
+    color:#fff;
+}
